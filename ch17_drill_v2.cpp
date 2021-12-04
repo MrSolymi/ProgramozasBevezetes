@@ -39,12 +39,12 @@ int main()
     delete[] p3;
 
     p1 = new int[10];
-    int x = 1;
+    x = 1;
     for(int i = 0; i < 7; i++){
 		p2[i] = x;
         x *= 2;
 	}
-    print_array(cout,p1,10);
+    print_array(cout, p1, 10);
 
     p2 = new int[10];
     for (int i = 0; i < 10; i++)
@@ -57,7 +57,7 @@ int main()
 
     vector<int> v(10);
 
-    int x = 1;
+    x = 1;
     for(int i = 0; i < 7; i++){
 		v[i] = x;
         x *= 2;
